@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="XinRan:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/XinRan_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="XinRan/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="XinRan" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="commons-dbutils-1.3" />
+          <element id="library" level="project" name="mysql-connector-java-5.1.37-bin" />
+          <element id="library" level="module" name="JUnit5.4" module-name="XinRan" />
+          <element id="library" level="project" name="servlet-api" />
+          <element id="library" level="project" name="druid-1.1.10" />
+          <element id="library" level="project" name="lib" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
